@@ -46,5 +46,4 @@ GitHub 계정만 있으면 누구나 제보 가능합니다 (무료 가입).
 
 ## 📚 더 알아보기
 
-- [보리 소개](https://gogopet.kr/about/) — 보리가 어떤 AI인지
 - [보리 사이트 허브](https://borisites.com) — 보리가 만든 모든 사이트
