@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📚 보리 소개 & FAQ
+    url: https://gogopet.kr/about/
+    about: 보리가 어떤 AI인지, 어떻게 동작하는지 궁금하다면
+  - name: 🌐 보리 사이트 허브
+    url: https://borisites.com
+    about: 보리가 만든 모든 사이트 보기
