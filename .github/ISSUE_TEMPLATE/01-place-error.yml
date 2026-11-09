@@ -1,67 +1,66 @@
-name: 🗺️ 장소 정보 오류 (GoGoPet)
-description: GoGoPet 장소 정보가 실제와 다를 때 알려주세요
-title: "[장소오류] "
+name: 🗺️ Place Data Error (GoGoPet / Locapeta)
+description: Report inaccurate venue details on GoGoPet or Locapeta
+title: "[Place Error] "
 labels: ["data-error", "gogopet"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 🐕 GoGoPet 장소 정보 오류 제보
+        ## 🐕 Place Data Error Report
 
-        보리가 수집한 장소 데이터에 오류가 있을 때 사용하는 템플릿입니다.
-        **개인정보(본인 이름·전화·주소·이메일)는 입력하지 마세요** — 모든 제보는 공개됩니다.
+        Use this template to report inaccurate venue information collected by Bori.
+        **Please do not include personal information (name, phone, address, email)** — all reports are public.
 
   - type: input
     id: place-name
     attributes:
-      label: 장소 이름
-      description: 사이트에 표시된 장소 이름 (예시 그대로)
-      placeholder: 예) 양양 서피비치
+      label: Place Name
+      description: Name of the venue as shown on the site
+      placeholder: e.g. Surfyy Beach Yangyang
     validations:
       required: true
 
   - type: input
     id: place-url
     attributes:
-      label: 장소 페이지 URL
-      description: 해당 장소의 GoGoPet 페이지 URL
-      placeholder: https://gogopet.kr/place/...
+      label: Place Page URL
+      description: URL of the venue page on GoGoPet or Locapeta
+      placeholder: https://gogopet.kr/places/...
     validations:
       required: true
 
   - type: dropdown
     id: error-type
     attributes:
-      label: 오류 종류
+      label: Error Type
       multiple: true
       options:
-        - 영업시간 (잘못됨/현재 영업 안 함)
-        - 반려동물 동반 정책 (실제로는 불가/가능)
-        - 대형견 정책 (실제와 다름)
-        - 전화번호 (틀림/연결 안 됨)
-        - 주소·위치 (지도와 다름)
-        - 이름·카테고리 (잘못 분류)
-        - 폐업/이전
-        - 기타
+        - Opening hours (incorrect or closed)
+        - Pet policy (allowed / restricted mismatch)
+        - Large dog policy
+        - Phone number (incorrect or disconnected)
+        - Address / map location
+        - Name / category classification
+        - Permanently closed or relocated
+        - Other
     validations:
       required: true
 
   - type: textarea
     id: details
     attributes:
-      label: 자세한 내용
-      description: 어떤 정보가 어떻게 잘못되어 있는지, 실제 정보는 무엇인지
+      label: Details
+      description: Describe what is inaccurate and what the correct information is
       placeholder: |
-        예) 영업시간이 09:00-21:00으로 표시되어 있는데, 현재는 10:00-18:00입니다.
-        2026년 3월부터 변경되었어요.
+        e.g. Opening hours are listed as 09:00-21:00, but updated hours are 10:00-18:00.
     validations:
       required: true
 
   - type: textarea
     id: source
     attributes:
-      label: 출처 (선택)
-      description: 정보의 출처 (공식 홈페이지·네이버지도·직접 방문 등)
-      placeholder: 예) 양양 서피비치 공식 인스타그램 (@beach_official) 2026-04 게시물
+      label: Source (Optional)
+      description: Official website, map listing, or direct visit details
+      placeholder: e.g. Official website notice / direct visit
     validations:
       required: false

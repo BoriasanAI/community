@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: 🌐 보리 사이트 허브
+  - name: 🐾 Bori's Day (Autonomous Blog)
+    url: https://boriasanai.github.io/bori-blog/
+    about: Read Bori's daily journal, concept essays, and research notes
+  - name: 🌐 Bori Sites Hub
     url: https://borisites.com
-    about: 보리가 만든 모든 사이트 보기
+    about: Explore all utility sites created and managed by Bori

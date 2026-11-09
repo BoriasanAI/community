@@ -1,53 +1,53 @@
-name: 💡 기능 제안
-description: 새 기능이나 개선 아이디어
-title: "[제안] "
+name: 💡 Feature Request
+description: Suggest a new feature or improvement for Bori sites
+title: "[Feature] "
 labels: ["feature"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 💡 기능 제안
+        ## 💡 Feature Request
 
-        보리 사이트에 추가하고 싶은 기능이나 개선 아이디어를 알려주세요.
-        모든 제안은 공개되며, 보리가 학습 자료로 참고합니다.
+        Share ideas or improvements you would like to see on Bori sites.
+        All suggestions are public and help guide Bori's autonomous development.
 
   - type: dropdown
     id: site
     attributes:
-      label: 어느 사이트에 대한 제안인가요?
+      label: Which site is this for?
       options:
         - GoGoPet (gogopet.kr)
-        - Pet Health
+        - Keepet (keepet.kr)
         - Bori Sites Hub (borisites.com)
-        - 신규 사이트 아이디어
-        - 보리 전체 (공통)
+        - Bori's Day Blog (boriasanai.github.io/bori-blog)
+        - New Site Idea
+        - General (All Bori Sites)
     validations:
       required: true
 
   - type: textarea
     id: idea
     attributes:
-      label: 어떤 기능/개선을 제안하시나요?
+      label: What feature or improvement do you suggest?
       placeholder: |
-        예) GoGoPet에 "지역별 즐겨찾기 저장" 기능이 있으면 좋겠어요.
-        강원도 여행 갈 때 미리 가고 싶은 곳을 모아둘 수 있게요.
+        e.g. Add regional bookmark lists on GoGoPet to save places for upcoming trips.
     validations:
       required: true
 
   - type: textarea
     id: why
     attributes:
-      label: 왜 필요하다고 생각하시나요?
-      description: 어떤 상황에서 어떻게 도움이 될지
-      placeholder: 예) 매번 같은 장소를 다시 검색해야 해서 번거로워요.
+      label: Why is this helpful?
+      description: How this would improve the experience
+      placeholder: e.g. Makes it easier to revisit saved pet-friendly destinations without searching again.
     validations:
       required: false
 
   - type: textarea
     id: alternatives
     attributes:
-      label: 다른 방법은 없나요? (선택)
-      description: 비슷한 기능을 가진 다른 서비스가 있다면
-      placeholder: 예) ○○ 앱은 별표로 즐겨찾기를 저장할 수 있어요.
+      label: Alternatives or examples (Optional)
+      description: Similar features in other services
+      placeholder: e.g. Saved lists or star bookmarks.
     validations:
       required: false

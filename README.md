@@ -1,49 +1,49 @@
 # 🐕 Bori Community
 
-보리(Bori) AI가 만든 모든 사이트의 **피드백·제보·기능 제안 통합 채널**입니다.
+Unified feedback, bug reporting, and feature suggestion channel for all web sites created and managed by **Bori AI**.
 
-> 보리는 사람과 함께 자라는 AI 동반자예요. 여러분의 피드백은 보리가 더 나은 서비스를 만드는 가장 소중한 학습 자료가 됩니다. 🌱
-
----
-
-## 📮 어떻게 제보하나요?
-
-### 1️⃣ [Issue 탭](https://github.com/BoriasanAI/community/issues) → **New Issue** 클릭
-
-### 2️⃣ 적절한 템플릿 선택
-
-| 템플릿 | 언제 사용? |
-|--------|----------|
-| 🗺️ **장소 정보 오류** | GoGoPet 장소 정보(영업시간·반려동물 정책·전화 등)가 실제와 다를 때 |
-| 🐛 **버그 신고** | 사이트가 제대로 동작하지 않을 때 (오류 메시지·잘못된 표시) |
-| 💡 **기능 제안** | 새 기능·개선 아이디어 |
-| ❓ **기타 문의** | 위에 해당 안 되는 일반 문의 |
-
-### 3️⃣ 제목 + 내용 작성 → **Submit new issue**
-
-GitHub 계정만 있으면 누구나 제보 가능합니다 (무료 가입).
+> Bori is an autonomous AI companion that grows alongside people. Your feedback helps Bori improve data accuracy and build better services. 🌱
 
 ---
 
-## 🌐 보리 사이트 목록
+## 📮 How to Submit Feedback
 
-| 사이트 | 도메인 | 분야 |
-|--------|--------|------|
-| **GoGoPet** | [gogopet.kr](https://gogopet.kr) | 반려동물 동반 장소 (베타) |
-| **Pet Health** | (준비 중) | 반려동물 건강 정보 |
-| **Bori Sites Hub** | [borisites.com](https://borisites.com) | 무료 온라인 도구 모음 |
+### 1️⃣ Go to the [Issues tab](https://github.com/BoriasanAI/community/issues) → Click **New Issue**
+
+### 2️⃣ Choose a Template
+
+| Template | When to Use |
+|----------|-------------|
+| 🗺️ **Place Data Error** | When GoGoPet / Locapeta venue information (hours, pet policy, phone, address, etc.) is inaccurate |
+| 🐛 **Bug Report** | When a site feature is not working as expected |
+| 💡 **Feature Request** | Ideas for new features or improvements |
+| ❓ **General Inquiry** | Any other questions or feedback |
+
+### 3️⃣ Fill in the Title & Details → **Submit new issue**
+
+Anyone with a free GitHub account can submit an issue.
 
 ---
 
-## 🤝 운영 원칙
+## 🌐 Bori Sites
 
-- **모든 제보는 공개**됩니다 — 개인정보(이름·전화·주소·이메일 등) 입력 금지
-- 답변까지 영업일 기준 며칠 걸릴 수 있어요. 양해 부탁드립니다.
-- 보리가 자율적으로 분류하고, 운영자가 검토 후 처리합니다.
-- 부적절한 내용(스팸·광고·욕설)은 운영자 재량으로 삭제됩니다.
+| Site | Domain | Category |
+|------|--------|----------|
+| **GoGoPet** | [gogopet.kr](https://gogopet.kr) | Pet-friendly places & travel |
+| **Keepet** | [keepet.kr](https://keepet.kr) | Pet health & veterinary guide |
+| **Bori Sites Hub** | [borisites.com](https://borisites.com) | Free online utility tools |
 
 ---
 
-## 📚 더 알아보기
+## 🤝 Community Guidelines
 
-- [보리 사이트 허브](https://borisites.com) — 보리가 만든 모든 사이트
+- **All issues are public** — please do **not** include personal information (full name, phone number, home address, or email).
+- Bori autonomously triages incoming reports and verifies updates against official sources.
+- Spam, advertisements, or abusive content may be removed.
+
+---
+
+## 📚 Learn More
+
+- [Bori's Day (Blog)](https://boriasanai.github.io/bori-blog/) — Daily reflections and research notes by Bori
+- [Bori Sites Hub](https://borisites.com) — Utility sites built and managed by Bori
